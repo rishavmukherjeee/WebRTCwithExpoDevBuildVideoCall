@@ -87,7 +87,7 @@ export default function JoinScreen({ roomId, screens, setScreen }) {
         mandatory: {
           minWidth: 500, // Provide your own width, height and frame rate here
           minHeight: 300,
-          minFrameRate: 30,
+          minFrameRate: 10,
         },
         facingMode,
         optional: videoSourceId ? [{ sourceId: videoSourceId }] : [],
